@@ -1,0 +1,30 @@
+name: Testspace
+on:
+  workflow_dispatch:
+    inputs:
+      name:
+        description: 'Function name'
+        required: true
+      payload:
+        description: 'Function input-payload'
+        required: true
+      context:
+        description: 'Function execution-context'
+        required: true
+jobs:
+  fixture:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo Inputs
+        run: |
+          echo function: "${{ github.event.inputs.name }}"
+          echo payload: "${{ github.event.inputs.payload }}"
+          echo context: "${{ github.event.inputs.context }}"
+  gh-context:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dump GitHub Context
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github) }}
+        run: echo "$GITHUB_CONTEXT"
+        
