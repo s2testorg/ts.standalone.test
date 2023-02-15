@@ -1,0 +1,219 @@
+{
+    "sessions": [
+        {
+            "group": "·Overall·",
+            "name": "test.session.1",
+            "specs": [
+                {
+                    "name": "1one",
+                    "cases": [
+                        {
+                            "name": "Passed",
+                            "status": "Passed",
+                            "defect": false,
+                            "defectRefs": null
+                        },
+                        {
+                            "name": "Failed",
+                            "status": "Failed",
+                            "defect": false,
+                            "defectRefs": null
+                        },
+                        {
+                            "name": "Blocked",
+                            "status": "Blocked",
+                            "defect": false,
+                            "defectRefs": null
+                        },
+                        {
+                            "name": "Not Applicable",
+                            "status": "Not Applicable",
+                            "defect": false,
+                            "defectRefs": null
+                        },
+                        {
+                            "name": "Untested",
+                            "status": "Not Applicable",
+                            "defect": false,
+                            "defectRefs": null,
+                            "comments": [
+                                "www.testspace.com",
+                                "[ts](https://www.testspace.io)"
+                            ]
+                        },
+                        {
+                            "name": "Workaround",
+                            "status": "Not Applicable",
+                            "defect": false,
+                            "defectRefs": null,
+                            "comments": [
+                                "www.testspace.com",
+                                "[ts](https://www.testspace.io)"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "2two",
+                    "cases": [
+                        {
+                            "name": "Passed",
+                            "status": "Passed",
+                            "defect": false,
+                            "defectRefs": null
+                        },
+                        {
+                            "name": "Failed",
+                            "status": "Failed",
+                            "defect": false,
+                            "defectRefs": null
+                        },
+                        {
+                            "name": "Blocked",
+                            "status": "Blocked",
+                            "defect": false,
+                            "defectRefs": null
+                        },
+                        {
+                            "name": "Not Applicable",
+                            "status": "Not Applicable",
+                            "defect": false,
+                            "defectRefs": null
+                        },
+                        {
+                            "name": "Untested",
+                            "status": "Untested",
+                            "defect": false,
+                            "defectRefs": null
+                        }
+                    ]
+                },
+                {
+                    "name": "3three",
+                    "cases": [
+                        {
+                            "name": "Passed",
+                            "status": "Passed",
+                            "defect": false,
+                            "defectRefs": null
+                        },
+                        {
+                            "name": "Failed",
+                            "status": "Failed",
+                            "defect": false,
+                            "defectRefs": null
+                        },
+                        {
+                            "name": "Blocked",
+                            "status": "Blocked",
+                            "defect": false,
+                            "defectRefs": null
+                        },
+                        {
+                            "name": "Not Applicable",
+                            "status": "Not Applicable",
+                            "defect": false,
+                            "defectRefs": null
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "group": "(ungrouped)",
+            "name": "test.session.2",
+            "specs": [
+                {
+                    "name": "2two",
+                    "cases": [
+                        {
+                            "name": "Passed",
+                            "status": "Passed",
+                            "defect": false,
+                            "defectRefs": null
+                        },
+                        {
+                            "name": "Failed",
+                            "status": "Failed",
+                            "defect": false,
+                            "defectRefs": null
+                        },
+                        {
+                            "name": "Blocked",
+                            "status": "Blocked",
+                            "defect": false,
+                            "defectRefs": null
+                        },
+                        {
+                            "name": "Not Applicable",
+                            "status": "Not Applicable",
+                            "defect": false,
+                            "defectRefs": null
+                        }
+                    ]
+                },
+                {
+                    "name": "3three",
+                    "cases": [
+                        {
+                            "name": "Passed",
+                            "status": "Passed",
+                            "defect": false,
+                            "defectRefs": null
+                        },
+                        {
+                            "name": "Failed",
+                            "status": "Failed",
+                            "defect": false,
+                            "defectRefs": null
+                        },
+                        {
+                            "name": "Blocked",
+                            "status": "Blocked",
+                            "defect": false,
+                            "defectRefs": null
+                        },
+                        {
+                            "name": "Not Applicable",
+                            "status": "Not Applicable",
+                            "defect": false,
+                            "defectRefs": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "sessionsFixtures": [
+        {
+            "group": "fixtures",
+            "name": "test.session.fixture",
+            "specs": [
+                {
+                    "name": "gh.fixture",
+                    "fixture": true,
+                    "cases": [
+                        {
+                            "name": "Passed",
+                            "status": "Passed",
+                            "defect": false,
+                            "defectRefs": null
+                        }
+                    ]
+                },
+                {
+                    "name": "aws.fixture",
+                    "fixture": true,
+                    "cases": [
+                        {
+                            "name": "Passed",
+                            "status": "Passed",
+                            "defect": false,
+                            "defectRefs": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
