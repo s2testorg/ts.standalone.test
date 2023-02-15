@@ -1,0 +1,5 @@
+manual: 
+  issues: 
+    provider: generic 
+release: 
+  - "*_release"
